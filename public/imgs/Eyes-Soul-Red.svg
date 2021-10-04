@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Mouth">
+    </g>
+    <g id="Eyes">
+        <g id="SoulStarer-red">
+            <g transform="matrix(1,0,0,1,-54.1563,-60.2517)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(179,35,35);"/>
+            </g>
+            <g transform="matrix(0.440392,0,0,0.440392,128.871,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,422.758,-60.2517)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(179,35,35);"/>
+            </g>
+            <g transform="matrix(0.440392,0,0,0.440392,605.785,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+        </g>
+    </g>
+    <g id="Eyebrows">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>

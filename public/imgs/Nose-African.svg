@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Nose">
+        <g id="African">
+            <g transform="matrix(1,0,0,1,18.5693,-79.9063)">
+                <ellipse cx="493.431" cy="520.456" rx="18.569" ry="181.792"/>
+            </g>
+            <g transform="matrix(1,0,0,1,7.94331,0.389324)">
+                <ellipse cx="475.911" cy="621.952" rx="28.146" ry="19.405"/>
+            </g>
+            <g transform="matrix(1,0,0,1,64.235,0.389324)">
+                <ellipse cx="475.911" cy="621.952" rx="28.146" ry="19.405"/>
+            </g>
+            <g transform="matrix(1,0,0,1,36.0891,11.7643)">
+                <ellipse cx="475.911" cy="621.952" rx="28.146" ry="19.405"/>
+            </g>
+        </g>
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>

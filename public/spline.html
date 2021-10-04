@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.1/svg.min.js"></script>
+        <script src="/js/spline.js"></script>
+        <style>
+            * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+svg {
+  width: 75vmin;
+  height: 75vmin;
+}
+        </style>
+    </head>
+    <body>
+
+        <script>
+            class BlobCharacter {
+                constructor(width, height, target) {
+                    // viewBox width & height dimensions
+                    this.width = width;
+                    this.height = height;
+
+                    // position of our character within the viewBox (the center)
+                    this.x = this.width / 2;
+                    this.y = this.height / 2;
+
+                    // <svg /> element (svg.js instance) we are using to render
+                    this.svg = SVG()
+                    .addTo(target) // mount instance to our target
+                    .viewbox(0, 0, this.width, this.height); // set the <svg /> viewBox attribute
+
+                    // choose a random size / radius for our character
+                    this.size = random(50, 80);
+                }
+
+                drawBody() {
+                    // choose a random number of points
+                    const numPoints = random(3, 12);
+                    // step used to place each point at equal distances
+                    const angleStep = (Math.PI * 2) / numPoints;
+
+                    // keep track of our points
+                    const points = [];
+
+                    for (let i = 1; i <= numPoints; i++) {
+                        // how much randomness should be added to each point
+                        const pull = random(0.75, 1, true);
+
+                        // x & y coordinates of the current point
+                        const x = this.x + Math.cos(i * angleStep) * (this.size * pull);
+                        const y = this.y + Math.sin(i * angleStep) * (this.size * pull);
+
+                        // push the point to the points array
+                        points.push({ x, y });
+                    }
+
+                    // generate a smooth continuous curve based on the points, using bezier curves. spline() will return an svg path-data string. The arguments are (points, tension, close). Play with tension and check out the effect!
+                    const pathData = spline(points, 1, true);
+
+                    // render the body in the form of an svg <path /> element!
+                    this.svg
+                        .path(pathData)
+                        .stroke({
+                        width: 2,
+                        color: '#000'
+                        })
+                        .fill('transparent');
+                }
+            }
+
+            // choose a number within a range, integer (whole number) by default
+            function random(min, max, float = false) {
+            const val = Math.random() * (max - min) + min;
+
+            if (float) {
+                return val;
+            }
+
+            return Math.floor(val);
+            }
+            
+            // viewBox w x h, target to append the <svg /> element to
+            const character = new BlobCharacter(200, 200, document.body);
+            character.drawBody();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(0.526415,0,0,0.894939,248.411,53.7913)">
+        <g id="Nose">
+            <path id="Skull" d="M500.724,512C548.206,512 586.756,550.55 586.756,598.032C586.756,645.515 548.206,613.007 500.724,613.007C453.241,613.007 414.692,645.515 414.692,598.032C414.692,550.55 453.241,512 500.724,512Z"/>
+        </g>
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>

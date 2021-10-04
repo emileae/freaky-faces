@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FreakyFaces</title>
+
+    <script src="https://kit.fontawesome.com/7f90caf0a3.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web&family=Ubuntu+Mono:wght@700&display=swap" rel="stylesheet">
+
+    <style media="screen">
+      html, body {
+        width: 100%;
+        height: 100%;
+        min-width: 100vw;
+        min-height: 100vh;
+        background: #000;
+        margin: 0;
+        padding: 0;
+        font-family: 'Titillium Web', sans-serif;
+        color: #fff;
+        font-size: 1.5rem;
+      }
+      #content{
+        max-width: 1200px;
+        margin:auto;
+      }
+      #title{
+        text-align: center;
+        font-size: 2rem;
+        letter-spacing: 1rem;
+        text-transform: uppercase;
+      }
+      .text{
+        padding: 1rem;
+      }
+      #faces {
+        position: relative;
+        background-color: #fff;
+        text-align: center;
+        width: /*500px*/100%;
+        height: 500px;
+        margin: auto;
+      }
+      #faces img {
+        width: 500px;
+        height:500px;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        bottom: 0px;
+        right: 0px;
+        margin: auto;
+      }
+      .hidden{
+        display:none;
+      }
+      .bullet{
+        font-size: 1rem;
+        padding-left: 1rem;
+      }
+
+      a:visited {
+        color: rgb(80, 80, 80);
+      }
+      a:hover {
+        color: rgb(80, 80, 80);
+      }
+
+      .responsive {
+        width: 100%;
+        max-width: 800px;
+        height: auto;
+      }
+
+      @media only screen and (max-width: 500px) {
+        #title{
+          font-size: 1.3rem;
+          letter-spacing: 0.8rem;
+        }
+        #faces {
+          height: 300px;
+        }
+        #faces img {
+          width: 300px;
+          height:300px;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="title">
+      <h1>FREAKY FACES</h1>
+    </div>
+    <div id="faces">
+      <img id="ha1" class="hidden" src="imgs/CheeksTriangle.svg">
+
+      <img id="m0" class="hidden" src="imgs/Mouth-Coin-Tongue.svg">
+      <img id="m1" class="hidden" src="imgs/Mouth-Disgust.svg">
+      <img id="m2" class="hidden" src="imgs/Mouth-Ellipse.svg">
+      <img id="m3" class="hidden" src="imgs/Mouth-Rectangle.svg">
+      <img id="m4" class="hidden" src="imgs/Mouth-Rounded_rectangle.svg">
+      <img id="m5" class="hidden" src="imgs/Mouth-Sneer-Tongue.svg">
+      <img id="m6" class="hidden" src="imgs/Mouth-Stitch.svg">
+      <img id="m7" class="hidden" src="imgs/Mouth-teeth.svg">
+      <img id="m8" class="hidden" src="imgs/Mouth-Spikes.svg">
+
+      <img id="eb0" class="hidden" src="imgs/Eyebrow-Angry.svg">
+      <img id="eb1" class="hidden" src="imgs/Eyebrow-Arc.svg">
+      <img id="eb2" class="hidden" src="imgs/Eyebrow-Cross.svg">
+      <img id="eb3" class="hidden" src="imgs/Eyebrow-Monobrow.svg">
+      <img id="eb4" class="hidden" src="imgs/Eyebrow-Neutral.svg">
+      <img id="eb5" class="hidden" src="imgs/Eyebrow-Sad.svg">
+
+      <img id="e0" class="hidden" src="imgs/Eye-Tear.svg">
+      <img id="e1" class="hidden" src="imgs/Eyes-Hypnosis.svg">
+      <img id="e2" class="hidden" src="imgs/Eyes-Kind.svg">
+      <img id="e3" class="hidden" src="imgs/Eyes-Racoon.svg">
+      <img id="e4" class="hidden" src="imgs/Eyes-Soul-Blue-Smiley.svg">
+      <img id="e5" class="hidden" src="imgs/Eyes-Soul-Blue.svg">
+      <img id="e6" class="hidden" src="imgs/Eyes-Tears2.svg">
+      <img id="e7" class="hidden" src="imgs/Eyes-Soul-Yellow.svg">
+      <img id="e8" class="hidden" src="imgs/Eyes-Soul-yellow-outline.svg">
+      <img id="e9" class="hidden" src="imgs/Eyes-Soul-pupil.svg">
+      <img id="e10" class="hidden" src="imgs/Eyes-dilated-L.svg">
+      <img id="e11" class="hidden" src="imgs/Eyes-Soul-Red.svg">
+      <img id="e12" class="hidden" src="imgs/Eyes-Large.svg">
+
+      <img id="n0" class="hidden" src="imgs/Nose-African.svg">
+      <img id="n1" class="hidden" src="imgs/Nose-Nostrils.svg">
+      <img id="n2" class="hidden" src="imgs/Nose-RoundedRectangle.svg">
+      <img id="n3" class="hidden" src="imgs/Nose-Skull.svg">
+      <img id="n4" class="hidden" src="imgs/Nose-Teardrop.svg">
+    </div>
+    <div id="content">
+      <div class="text">
+        10000 of the ugliest NFTs on the Solana blockchain <i>...at least they're not animals</i>.
+      </div>
+      <div class="text">
+        <div class="bullet">
+          - unique & unattractive faces for your PFP needs
+        </div>
+        <div class="bullet">
+          - definitely not a pudgey pigeon, or a manic monkey
+        </div>
+        <div class="bullet">
+          - rare traits
+        </div>
+        <div class="bullet">
+          - definitely gamified
+        </div>
+      </div>
+      <div class="text">
+        Roadmap & more information to follow.
+        <div>
+          <img src="imgs/chester-dolphin_text.jpg" class="responsive">
+          <br>
+          We're like chester.
+        </div>
+      </div>
+      <div class="text">
+        a project by Emile
+        <br/>
+        <span style="margin-right:1rem;margin-top:1rem;"><a href="https://twitter.com/emiru84" target="_blank"><i class="fab fa-twitter"></i></a></span>
+        <span style="margin-right:1rem;margin-top:1rem;"><a href="https://www.linkedin.com/in/emileesterhuizen/" target="_blank"><i class="fab fa-linkedin-in"></i></a></span>
+        <br/>
+      </div>
+    </div>
+
+    <script>
+      var ids = {
+        "mouth": ["m0", "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8"],
+        "eyebrow": ["eb0", "eb1", "eb2", "eb3", "eb4", "eb5"],
+        "eyes": ["e0", "e1", "e2", "e3", "e4", "e5", "e6", "e7", "e8", "e9", "e10", "e11", "e12"],
+        "nose": ["n0", "n1", "n2", "n3", "n4"]
+      }
+
+      function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      function chooseFeature(feature){
+        var arr = ids[feature];
+        var index = getRandomInt(0, arr.length-1);
+        return arr[index];
+      }
+
+      var visibleIds = [];
+      var bgColor;
+
+      setInterval(function(){
+        visibleIds.forEach(function(id){
+          hide(id);
+        });
+        visibleIds = [];
+        var mouthId = chooseFeature("mouth");
+        var eyebrowId = chooseFeature("eyebrow");
+        var eyeId = chooseFeature("eyes");
+        var noseId = chooseFeature("nose");
+        visibleIds.push(mouthId);
+        visibleIds.push(eyebrowId);
+        visibleIds.push(eyeId);
+        visibleIds.push(noseId);
+        visibleIds.forEach(function(id){
+          show(id);
+        });
+      }, 1000);
+      function show(id) {
+        console.log("show id: ", id);
+        var element = document.getElementById(id);
+        element.classList.remove("hidden");
+      }
+      function hide(id) {
+        console.log("hide id: ", id);
+        var element = document.getElementById(id);
+        element.classList.add("hidden");
+      }
+
+      function addColor(id, color){
+        var element = document.getElementById(id);
+        element.classList.add("color");
+      }
+      function removeColor(id, color){
+        var element = document.getElementById(id);
+        element.classList.remove("color");
+      }
+    </script>
+
+  </body>
+</html>

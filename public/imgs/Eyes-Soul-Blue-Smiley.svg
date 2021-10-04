@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Eyes">
+        <g id="SoulStarer-blue-smiley">
+            <g transform="matrix(0.440392,0,0,0.440392,128.871,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+            <g transform="matrix(0.440392,0,0,0.440392,605.785,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+            <path d="M214.153,491.739C191.862,474.277 177.524,447.108 177.524,416.617C177.524,363.974 220.264,321.234 272.907,321.234C325.55,321.234 368.29,363.974 368.29,416.617C368.29,447.108 353.952,474.277 331.66,491.739C313.304,487.626 293.523,485.385 272.907,485.385C252.291,485.385 232.51,487.626 214.153,491.739Z" style="fill:rgb(35,125,179);"/>
+            <g transform="matrix(0.440392,0,0,0.440392,128.871,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+            <g transform="matrix(0.440392,0,0,0.440392,605.785,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+            <g transform="matrix(1,0,0,1,476.914,0)">
+                <path d="M214.153,491.739C191.862,474.277 177.524,447.108 177.524,416.617C177.524,363.974 220.264,321.234 272.907,321.234C325.55,321.234 368.29,363.974 368.29,416.617C368.29,447.108 353.952,474.277 331.66,491.739C313.304,487.626 293.523,485.385 272.907,485.385C252.291,485.385 232.51,487.626 214.153,491.739Z" style="fill:rgb(35,125,179);"/>
+            </g>
+            <g transform="matrix(0.440392,0,0,0.440392,605.785,206.785)">
+                <circle cx="327.063" cy="476.869" r="95.383" style="fill:rgb(14,14,14);"/>
+            </g>
+            <g transform="matrix(1.56224,0,0,1.56224,-152.802,-336.699)">
+                <circle cx="272.907" cy="585.265" r="42.006" style="fill:rgb(196,100,85);"/>
+            </g>
+            <g transform="matrix(1.56224,0,0,1.56224,324.112,-336.699)">
+                <circle cx="272.907" cy="585.265" r="42.006" style="fill:rgb(196,100,85);"/>
+            </g>
+        </g>
+    </g>
+    <g id="Eyebrows">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>

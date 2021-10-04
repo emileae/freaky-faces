@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Mouth">
+        <g id="Teeth">
+            <g transform="matrix(0.740391,0,0,0.529773,139.672,436.153)">
+                <path d="M919.445,669.795C919.445,629.046 895.773,595.962 866.616,595.962L139.145,595.962C109.988,595.962 86.316,629.046 86.316,669.795L86.316,817.459C86.316,858.208 109.988,891.292 139.145,891.292L866.616,891.292C895.773,891.292 919.445,858.208 919.445,817.459L919.445,669.795Z" style="fill:none;stroke:black;stroke-width:23.3px;"/>
+            </g>
+            <g transform="matrix(0.740391,0,0,0.740391,139.672,248.431)">
+                <path d="M86.316,785.633L919.445,785.633" style="fill:none;stroke:black;stroke-width:20.26px;"/>
+            </g>
+            <g transform="matrix(0.740391,0,0,0.740391,-76.887,248.431)">
+                <path d="M512,679.974L512,891.292" style="fill:none;stroke:black;stroke-width:20.26px;"/>
+            </g>
+            <g transform="matrix(0.740391,0,0,0.740391,28.0165,248.431)">
+                <path d="M512,679.974L512,891.292" style="fill:none;stroke:black;stroke-width:20.26px;"/>
+            </g>
+            <g transform="matrix(0.740391,0,0,0.740391,132.92,248.431)">
+                <path d="M512,679.974L512,891.292" style="fill:none;stroke:black;stroke-width:20.26px;"/>
+            </g>
+            <g transform="matrix(0.740391,0,0,0.740391,237.823,248.431)">
+                <path d="M512,679.974L512,891.292" style="fill:none;stroke:black;stroke-width:20.26px;"/>
+            </g>
+            <g transform="matrix(0.740391,0,0,0.740391,342.727,248.431)">
+                <path d="M512,679.974L512,891.292" style="fill:none;stroke:black;stroke-width:20.26px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Eyebrows">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>

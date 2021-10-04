@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g id="Eyebrows">
+        <g id="Arc">
+            <g transform="matrix(1.39078,0,0,1.39078,-5.48575,-736.432)">
+                <path d="M96.79,714.085L68.409,714.085C68.409,655.369 116.079,607.699 174.795,607.699C233.512,607.699 281.182,655.369 281.182,714.085L252.801,714.085C252.801,671.032 217.848,636.079 174.795,636.079C131.743,636.079 96.79,671.032 96.79,714.085Z"/>
+            </g>
+            <g transform="matrix(1.39078,0,0,1.39078,543.283,-736.432)">
+                <path d="M96.79,714.085L68.409,714.085C68.409,655.369 116.079,607.699 174.795,607.699C233.512,607.699 281.182,655.369 281.182,714.085L252.801,714.085C252.801,671.032 217.848,636.079 174.795,636.079C131.743,636.079 96.79,671.032 96.79,714.085Z"/>
+            </g>
+        </g>
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>

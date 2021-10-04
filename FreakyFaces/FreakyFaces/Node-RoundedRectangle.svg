@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(1,0,0,1,-1.8132,0)">
+        <g id="Nose">
+            <path id="RoundedRectangle" d="M549.063,358.711C549.063,348.984 541.166,341.086 531.438,341.086L496.188,341.086C486.461,341.086 478.563,348.984 478.563,358.711L478.563,617.679C478.563,627.406 486.461,635.304 496.188,635.304L531.438,635.304C541.166,635.304 549.063,627.406 549.063,617.679L549.063,358.711Z"/>
+        </g>
+    </g>
+    <g id="HeadAccessories">
+    </g>
+    <g id="Spacers">
+    </g>
+</svg>
