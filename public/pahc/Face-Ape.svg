@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g transform="matrix(1,0,0,1.16941,0,-68.0848)">
+        <g id="Faces">
+            <path id="Ape" d="M915.862,607.443C914.276,593.189 913.607,578.132 913.607,562.56C913.607,473.882 912.571,401.888 1024,401.888C1135.43,401.888 1134.39,473.882 1134.39,562.56C1134.39,578.132 1133.72,593.189 1132.14,607.443L1093.24,607.443C1093.24,645.655 1062.21,676.679 1024,676.679C985.787,676.679 954.764,645.655 954.764,607.443L915.862,607.443Z" style="fill:white;stroke:black;stroke-width:9.19px;"/>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BackPacks">
+    </g>
+    <g transform="matrix(1,0,0,1,0,-195.697)">
+        <g id="BackPackAccessories">
+            <g id="Tentacle">
+                <path d="M483.405,1188.13C483.405,1188.13 385.137,1132.48 338.718,1102.73C229.931,1032.99 227.762,1108.92 266.593,1206.5C276.1,1230.39 222.295,1234.55 199.626,1224.41C164.463,1208.69 178.064,1154.96 178.064,1154.96C178.064,1154.96 142.399,1223.99 178.064,1248.1C208.439,1268.63 265.461,1269.25 292.638,1258.19C352.744,1233.71 300.491,1180.24 328.295,1188.13C383.432,1203.77 483.405,1281.97 483.405,1281.97L483.405,1188.13Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+                <g transform="matrix(0.872639,0.488366,-0.488366,0.872639,661.639,-65.9988)">
+                    <ellipse cx="441.616" cy="1231.39" rx="19.672" ry="14.065" style="fill:white;stroke:black;stroke-width:10px;"/>
+                </g>
+                <g transform="matrix(0.690995,0.38671,-0.38671,0.690995,552.174,164.06)">
+                    <ellipse cx="441.616" cy="1231.39" rx="19.672" ry="14.065" style="fill:white;stroke:black;stroke-width:12.63px;"/>
+                </g>
+                <g transform="matrix(0.654327,-0.0812971,0.0812971,0.654327,-73.9268,392.739)">
+                    <ellipse cx="441.616" cy="1231.39" rx="19.672" ry="14.065" style="fill:white;stroke:black;stroke-width:15.17px;"/>
+                </g>
+                <g transform="matrix(0.0541051,-0.580675,0.577268,0.0537877,-435.226,1405.81)">
+                    <ellipse cx="441.616" cy="1231.39" rx="19.672" ry="14.065" style="fill:white;stroke:black;stroke-width:17.2px;"/>
+                </g>
+                <g transform="matrix(0.46174,-0.11116,0.104584,0.434425,-80.5268,763.411)">
+                    <ellipse cx="441.616" cy="1231.39" rx="19.672" ry="14.065" style="fill:white;stroke:black;stroke-width:21.69px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Mouths">
+    </g>
+</svg>

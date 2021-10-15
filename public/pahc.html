@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FreakyFaces</title>
+
+    <style>
+        @font-face {
+            font-family: kaomoji;
+            src: url(Kaomoji-Regular.ttf);
+        }
+        html body{
+            background-color: rgb(166, 226, 201);
+            font-family: kaomoji;
+        }
+        .layered-img{
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="pahc">
+        
+    </div>
+
+    <script>
+
+        const images = {
+            "Mouth": ["Animal", "Cat", "Grit", "Happy", "Hitler", "Moustache", "Overbite", "Surprised", "Tongue", "Underbite", "Unhappy", "Veryhappy", "Walrus"],
+            "Face": ["Ape", "Flatbottom", "Flattop", "Normal"],
+            "Acc": ["Cat", "Hand", "Owl", "Skulls", "Sword", "Tentacle", "Toothbrush"],
+            "Body": ["Normal", "Round", "Keyhole", "Triangle", "Rectangle", "Pillar"],
+            "Eyes": ["Normal"],
+            "Arms": ["Normal", "Round", "Keyhole", "Triangle", "Rectangle", "Pillar"],
+            "Shorts": ["Normal", "Round", "Keyhole", "Triangle", "Rectangle", "Pillar", "NormalLong", "RoundLong", "TriangleLong", "RectangleLong", "PillarLong"],
+            "Straps": ["Normal", "Round", "Keyhole", "Triangle", "Rectangle", "Pillar"]
+        }
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      var uniques = [];
+
+      function randomAsset(assetName){
+        var index = getRandomInt(0, images[assetName].length-1);
+        return images[assetName][index];
+      }
+
+      function genCharacter(){
+        var character = {};
+        character["Body"] = randomAsset("Body");
+        character["Face"] = randomAsset("Face");
+        character["Mouth"] = randomAsset("Mouth");
+        character["Eyes"] = randomAsset("Eyes");
+        character["Acc"] = randomAsset("Acc");
+        var longShorts = getRandomInt(0, 100);
+        if (longShorts < 50){
+            character["Shorts"] = `${character["Body"]}Long`;
+        }else{
+            character["Shorts"] = `${character["Body"]}`;
+        }
+        character["Arms"] = `${character["Body"]}`;
+        character["Straps"] = `${character["Body"]}`;
+        var id = `${character["Body"]},${character["Face"]},${character["Mouth"]},${character["Eyes"]},${character["Acc"]}`
+        if (uniques.indexOf(id) <= -1){
+            uniques.push(id)
+        }
+        return character;
+      }
+
+      function generateImage(){
+        var zPos = {
+            "Backpack": 0,
+            "Acc": -1,
+            "Body": 0,
+            "Legs": 0,
+            "Arms": 2,
+            "Straps": 1,
+            "Face": 2,
+            "Mouth": 3,
+            "Eyes": 3,
+        } 
+        var character = genCharacter();
+        console.log("character: ", character)
+        var html = "";
+        html += `<img class="layered-img" src="pahc/Legs.svg" width="512px" style="z-index:0"/>`
+        html += `<img class="layered-img" src="pahc/Backpack.svg" width="512px" style="z-index:0"/>`
+        Object.keys(character).forEach(function(attr, idx){
+            html += `<img class="layered-img" src="pahc/${attr}-${character[attr]}.svg" width="512px" style="z-index:${zPos[attr]}"/>`
+        })
+        var pahc = document.getElementById("pahc")
+        pahc.innerHTML = html;
+      }
+
+      generateImage();
+      generate10K()
+
+    function generate10K(){
+        for (var i=0; i<10001; i++){
+            genCharacter();
+        }
+        console.log("total uniques: ", uniques.length);
+    }
+    </script>
+</body>
+</html>

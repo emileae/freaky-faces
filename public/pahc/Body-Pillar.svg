@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+        <path id="Pillar" d="M1377.85,1406.04L1377.85,579.058C1377.85,383.763 1219.3,225.209 1024,225.209C828.705,225.209 670.15,383.763 670.15,579.058L670.15,1406.04C670.15,1444.05 701.013,1474.92 739.027,1474.92L1308.97,1474.92C1346.99,1474.92 1377.85,1444.05 1377.85,1406.04Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+    </g>
+</svg>

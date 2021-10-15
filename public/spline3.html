@@ -1,0 +1,357 @@
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/svg.js/3.1.1/svg.min.js"></script>
+        <script src="/js/spline.js"></script>
+        <style>
+            * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: #917a63;
+  /* background: rgb(19, 18, 18) */
+}
+
+svg {
+  width: 85vmin;
+  height: 85vmin;
+}
+        </style>
+    </head>
+    <body>
+
+        <svg style="display:none;">
+            <!-- Masks seem to be pre-filled with black -->
+            <mask id="union">
+              <!-- Whatever is white in the mask will be visible of the shape the mask is applied to. -->
+              <rect id="A" x="20" y="20" width="50" height="100" stroke="white" fill="none"></rect>
+              <!-- Putting a second (, third, ...) shape into the mask will draw the shape over any existing shapes. -->
+              <circle id="B" cx="80" cy="60" r="30" stroke="white" fill="none"></circle>
+              <circle id="C" cx="90" cy="80" r="40" stroke="white" fill="none"></circle>
+              <!-- Now we delete the inner part of the shapes by drawing black over them. -->
+              <rect id="Ainner" x="20" y="20" width="50" height="100" fill="black"></rect>
+              <circle id="Binner" cx="80" cy="60" r="30" fill="black"></circle>
+              <circle id="Cinner" cx="90" cy="80" r="40" fill="black"></circle>
+            </mask>
+
+            <mask id="union-body">
+                <!-- Whatever is white in the mask will be visible of the shape the mask is applied to. -->
+                <rect id="Body" x="50" y="70" width="150" height="150" stroke="white" stroke-width="10" fill="none"></rect>
+                <!-- Putting a second (, third, ...) shape into the mask will draw the shape over any existing shapes. -->
+                <circle id="Head" cx="135" cy="60" r="40" stroke="white" fill="none"  stroke-width="10"></circle>
+                <!-- Now we delete the inner part of the shapes by drawing black over them. -->
+                <rect id="BodyInner" x="50" y="70" width="150" height="150" fill="black"></rect>
+                <circle id="HeadInner" cx="135" cy="60" r="40" fill="black"></circle>
+            </mask>
+
+            <!-- Applied to a full-screen red rectangle it cuts out the strokes from the mask. -->
+            <rect id="A+B" x="0" y="0" width="100%" height="100%" fill="red" mask="url(#union-body)"></rect>
+          </svg>
+
+
+          <!-- <svg
+            width="107.67012mm"
+            height="65.74247mm"
+            viewBox="0 0 107.67012 65.74247"
+            version="1.1"
+            id="svg5"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:svg="http://www.w3.org/2000/svg">
+            <defs
+                id="defs2" />
+            <g
+                id="layer1"
+                transform="translate(-38.442509,-90.855061)">
+                <path
+                id="path846"
+                style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:7.24112;stroke-opacity:1"
+                d="M 348.76367,347.00977 A 200.05065,166.58582 0 0 0 149.24414,501.54492 h 134.75977 v 86.69922 H 413.52539 V 501.54492 H 548.28711 A 200.05065,166.58582 0 0 0 348.76367,347.00977 Z"
+                transform="scale(0.26458333)" />
+            </g>
+            </svg> -->
+
+        <script>
+            class BlobCharacter {
+                constructor(width, height, target) {
+                    // viewBox width & height dimensions
+                    this.width = width;
+                    this.height = height;
+
+                    // position of our character within the viewBox (the center)
+                    this.x = this.width / 2;
+                    this.y = this.height / 2;
+
+                    this.highestPoint;
+                    this.lowestPoint;
+                    this.secondLowestPoint;
+
+                    // <svg /> element (svg.js instance) we are using to render
+                    this.svg = SVG()
+                    .addTo(target) // mount instance to our target
+                    .viewbox(0, 0, this.width, this.height); // set the <svg /> viewBox attribute
+
+                    // choose a random size / radius for our character
+                    this.size = random(50, 80);
+
+                    // widths
+                    this.centerX = 100;
+                    // applies to top head down to bottom head
+                    this.minHeadWidth = 10;
+                    this.maxHeadWidth = 30;
+                    // applies to shoulder waiste and hips
+                    this.minShoulderWidth = 0;
+                    this.maxShoulderWidth = 80;
+                    
+                    // heights
+                    this.topY = 30;
+                    this.bottomY = 200;
+                    this.bottomPoint = {x: this.centerX ,y: this.topY+110};// bottom
+                    this.headHeight = 50;
+                    this.topHeadFr = 0.1;
+                    this.midHeadFr = 0.5;
+                    this.shoulderDrop = 10;
+                    this.shoulderHeight = random(this.topY+20, this.bottomPoint.y*0.3, true)//topY+headHeight+shoulderDrop;
+                    this.waiseFr = 0.4;
+                    this.topHipFr = 0.2;
+                    this.bottomHipFr = 0.1;
+                    this.shoulderToBottom = this.bottomY - this.shoulderHeight;
+                    this.topPoint = {x: this.centerX, y: this.topY};// top
+
+                    // head X
+                    this.randomTopHeadX = random(this.minHeadWidth, this.maxHeadWidth, true);
+                    this.randomMidHeadX = random(this.minHeadWidth, this.minHeadWidth, true);
+                    this.randomBottomHeadX = random(this.minHeadWidth, this.maxHeadWidth, true);
+
+                    // shoulder X
+                    this.randomShoulderX = random(this.randomTopHeadX, this.randomTopHeadX+30, true);
+                    this.randomWaistX = random(this.randomShoulderX-10, this.randomShoulderX+10, true);
+                    this.randomTopHipsX = random(this.minShoulderWidth, this.maxShoulderWidth, true);
+                    this.randomBottomHipsX = random(this.randomShoulderX-10, this.randomShoulderX+30, true);
+
+                }
+
+                // can add wild hair like this
+                // or can add a clipping mask to get flat hair
+                getHairPoints(startX, endX, baseY, volume){
+                    const numPoints = random(4, 20);
+                    const angleStep = (Math.PI) / numPoints;
+                    const xStep = (endX - startX) / numPoints;
+                    const points = [];
+
+                    for (let i = 1; i <= numPoints; i++) {
+                        // how much randomness should be added to each point
+                        const pull = random(0.75, 1.2, true);
+
+                        // x & y coordinates of the current point
+                        const x = startX + (i * xStep);
+                        let y;
+                        if (i == 0 || i == numPoints){
+                            y = baseY;
+                        }else{
+                            y = baseY - volume * Math.sin(i * angleStep) * (this.size * pull);
+                        }
+
+                        // push the point to the points array
+                        points.push({ x, y });
+                    }
+                    return points;
+                }
+
+                drawBody() {
+                    // choose a random number of points
+                    const numPoints = 16//random(8, 20);
+                    // step used to place each point at equal distances
+                    const angleStep = (Math.PI * 2) / numPoints;
+
+                    // keep track of our points
+                    let points = [];
+
+                    var bodyBottom = 350;
+
+                    const a = random(0.3, 1, true);
+                    const b = a * random(2, 2.5, true);
+                    console.log(`a: ${a}, b: ${b}`)
+
+                    let highestPoint = {x: Number.MAX_VALUE, y: Number.MAX_VALUE};
+                    let lowestPoint = {x: Number.MIN_VALUE, y: Number.MIN_VALUE};
+                    let lowestPointIndex = 0;
+                    let secondLowestPointIndex = 0;
+                    let secondLowestPoint = {x: Number.MIN_VALUE, y: Number.MIN_VALUE};
+
+                    let minX = {x: Number.MAX_VALUE, y: Number.MAX_VALUE};
+                    let maxX = {x: Number.MIN_VALUE, y: Number.MIN_VALUE};
+
+                    // circle
+                    for (let i = 1; i <= numPoints; i++) {
+                        // how much randomness should be added to each point
+                        const pull = random(0.95, 1.05, true);
+
+                        // x & y coordinates of the current point
+                        const x = this.x + a * Math.cos(i * angleStep) * (this.size * pull);
+                        let y = this.y + b * Math.sin(i * angleStep) * (this.size * pull);
+
+                        // if (i == 3 || i == 4 || i == 5){
+                        //     y = bodyBottom + random(-3, 3, true);
+                        //     console.log(i+" y: "+y+" x: "+x);
+                        // }
+
+                        if (x < minX.x){
+                            minX.x = x;
+                            minX.y = y;
+                        }
+
+                        if (x > maxX.x){
+                            maxX.x = x;
+                            maxX.y = y;
+                        }
+                        points.push({ x, y });
+                    }
+
+                    points[3] = {
+                        x: maxX.x + random(-3, 3, true),
+                        y: bodyBottom + random(-3, 3, true)
+                    }
+
+                    points[4] = {
+                        x: (minX.x + maxX.x)*0.5 + random(-3, 3, true),
+                        y: bodyBottom + random(-3, 3, true)
+                    }
+
+                    points[5] = {
+                        x: minX.x + random(-3, 3, true),
+                        y: bodyBottom + random(-3, 3, true)
+                    }
+
+                    // Remove any points below the body bottom
+                    let indicesToRemove = []
+                    for (var i=0; i<points.length; i++){
+
+                        // remove any points too close to bottom
+                        // smaller than 10 or negative... points can be close on either side
+                        if (i != 3 && i !=4 && i !=5){
+                            if (bodyBottom - points[i].y < 10 ){
+                                indicesToRemove.push(i);
+                            }
+
+                            // debug
+                            // if (i == 14 || i == 15 || i == 13){
+                            //     this.svg.circle(10).attr({cx: points[i].x, cy:points[i].y}).fill('pink')
+                            // }else{
+                            //     this.svg.circle(10).attr({cx: points[i].x, cy:points[i].y}).fill('green')
+                            // }
+                        }
+
+                        // try to keep the body from curling in towards the center, esp for smaller ellipses
+
+                        // right buldge
+                        // y is below middle and x is greater than the body center
+                        if (points[i].y > maxX.y && points[i].x > points[4].x){
+                            points[i].x = maxX.x + random(-3, 3, true)
+                        }
+
+                        // left buldge
+                        if (points[i].y > minX.y && points[i].x < points[4].x){
+                            points[i].x = minX.x + random(-3, 3, true)
+                        }
+                    }
+
+                    // debug 
+                    // body bottom
+                    // this.svg.circle(5).attr({cx: points[3].x, cy:points[3].y}).fill('orange')
+                    // this.svg.circle(5).attr({cx: points[4].x, cy:points[4].y}).fill('red')
+                    // this.svg.circle(5).attr({cx: points[5].x, cy:points[5].y}).fill('blue')
+
+                    let newPoints = []
+                    points.forEach((p, i) => {
+                        if (indicesToRemove.indexOf(i) <= -1){
+                            newPoints.push(p);
+                        }
+                    })
+
+                    console.log("newPoints: ", newPoints)
+                    const pathData = spline(newPoints, 1, true);
+
+                    // render the body in the form of an svg <path /> element!
+                    this.svg
+                        .path(pathData)
+                        .fill("pink")
+                        .stroke({
+                        width: 2,
+                        color: '#000'
+                        })
+                        // .fill(patterns[random(0, patterns.length-1)])
+                        // .fill('#fff');
+                        .fill('#3d352f')
+
+                    // draw the legs
+                    var randomLeftHipX = points[5].x+random(5, points[4].x-points[5].x-10);
+                    var leftLeg = this.svg.polyline([randomLeftHipX,points[5].y, randomLeftHipX+random(-2,2,true),points[5].y+20, randomLeftHipX+random(-2,2,true),points[5].y+40])
+                    leftLeg.fill('none')
+                    leftLeg.stroke({ color: '#000', width: 3, linecap: 'round', linejoin: 'round' })
+
+                    var randomRightHipX = points[3].x-random(5, points[3].x-points[4].x-10)
+                    var rightLeg = this.svg.polyline([randomRightHipX,points[3].y, randomRightHipX-random(-2,2,true),points[3].y+20, randomRightHipX-random(-2,2,true),points[3].y+40])
+                    rightLeg.fill('none')
+                    rightLeg.stroke({ color: '#000', width: 3, linecap: 'round', linejoin: 'round' })
+
+                    // draw the arms
+                    // make the arms the point below the eyes
+                    // so if eyes are 9 - 13 then arms are 8 - 14
+                    var leftArm = this.svg.polyline([points[8].x ,points[8].y, points[8].x-random(10, 15, true) ,points[8].y+random(20, 30, true), points[8].x-random(10, 20, true) ,points[8].y+random(30, 50, true)])
+                    leftArm.fill('none')
+                    leftArm.stroke({ color: '#000', width: 3, linecap: 'round', linejoin: 'round' })
+
+                    var rightArm = this.svg.polyline([points[14].x ,points[14].y, points[14].x+random(10, 15, true) ,points[14].y+random(20, 30, true), points[14].x+random(10, 20, true) ,points[14].y+random(30, 50, true)])
+                    rightArm.fill('none')
+                    rightArm.stroke({ color: '#000', width: 3, linecap: 'round', linejoin: 'round' })
+
+                    // place eyes
+                    // eye height options
+                    // 9 - 12
+                    // 8 - 14
+
+                    // choose one point as a base
+                    // then vary the spacing from the center, but keep it within the body
+                    var headWidth = points[13].x - points[9].x;
+                    console.log(`pos: ${points[4].x - headWidth*0.25}, ${points[9].y}`)
+                    this.svg.ellipse(random(8,10,true), random(8,10,true)).attr({cx: points[4].x - headWidth*0.25, cy:points[9].y}).fill("#fff")
+                    this.svg.ellipse(random(8,10,true), random(8,10,true)).attr({cx: points[4].x + headWidth*0.25, cy:points[9].y}).fill("#fff")
+
+                    // mouth
+                    var mouthY = points[9].y + random(5,10,true)
+                    var mouth = this.svg.polyline([points[4].x-random(5, 10, true), mouthY, points[4].x ,mouthY, points[4].x+random(5, 10, true) ,mouthY])
+                    mouth.fill('none')
+                    mouth.stroke({ color: '#fff', width: 2, linecap: 'round', linejoin: 'round' })
+                }
+
+                drawLegs() {
+                    const hipOffset = 10;
+                    const legLength = random(20, 30, true);
+                    const legL = this.svg.line(this.lowestPoint.x, this.lowestPoint.y, this.lowestPoint.x, this.lowestPoint.y + legLength).stroke({ width: 2, color: '#efefef' })
+                    const legR = this.svg.line(this.secondLowestPoint.x, this.secondLowestPoint.y, this.secondLowestPoint.x, this.lowestPoint.y + legLength).stroke({ width: 2, color: '#efefef' })
+                }
+
+            }
+
+            // choose a number within a range, integer (whole number) by default
+            function random(min, max, float = false) {
+            const val = Math.random() * (max - min) + min;
+
+            if (float) {
+                return val;
+            }
+
+            return Math.floor(val);
+            }
+            
+            // viewBox w x h, target to append the <svg /> element to
+            const character = new BlobCharacter(500, 500, document.body);
+            character.drawBody();
+        </script>
+    </body>
+</html>

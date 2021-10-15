@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BackPacks">
+    </g>
+    <g id="BackPackAccessories">
+        <g id="Hand">
+            <path d="M1579,1273.95L1579,1347.52C1579,1369.71 1560.98,1387.73 1538.79,1387.73L1448.07,1387.73C1453.04,1400.17 1465.21,1408.97 1479.42,1408.97L1593.42,1408.97C1612.05,1408.97 1627.18,1393.85 1627.18,1375.22L1627.18,1307.7C1627.18,1289.07 1612.05,1273.95 1593.42,1273.95L1579,1273.95Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+            <path d="M1504.74,1221.3L1618.78,1221.3C1627.94,1221.3 1635.37,1213.87 1635.37,1204.71L1635.37,1171.55C1635.37,1162.39 1627.94,1154.96 1618.78,1154.96L1504.74,1154.96C1486.44,1154.96 1471.58,1169.83 1471.58,1188.13C1471.58,1206.44 1486.44,1221.3 1504.74,1221.3Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+            <g>
+                <path d="M1477.99,1392.39L1477.99,1334.2C1477.99,1315.9 1463.13,1301.04 1444.82,1301.04C1426.52,1301.04 1411.65,1315.9 1411.65,1334.2L1411.65,1392.39C1411.65,1401.54 1419.09,1408.97 1428.24,1408.97L1461.4,1408.97C1470.56,1408.97 1477.99,1401.54 1477.99,1392.39Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+                <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,2632.95,-194.962)">
+                    <path d="M1537.3,1154.96C1558.72,1182.47 1555.42,1203.84 1536.42,1221.3" style="fill:none;stroke:black;stroke-width:10px;"/>
+                </g>
+            </g>
+            <g>
+                <g transform="matrix(1,0,0,1,0,132.666)">
+                    <path d="M1504.74,1221.3L1618.78,1221.3C1627.94,1221.3 1635.37,1213.87 1635.37,1204.71L1635.37,1171.55C1635.37,1162.39 1627.94,1154.96 1618.78,1154.96L1504.74,1154.96C1486.44,1154.96 1471.58,1169.83 1471.58,1188.13C1471.58,1206.44 1486.44,1221.3 1504.74,1221.3Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+                </g>
+                <g transform="matrix(1,0,0,1,-27.3713,132.666)">
+                    <path d="M1537.3,1154.96C1558.72,1182.47 1555.42,1203.84 1536.42,1221.3" style="fill:none;stroke:black;stroke-width:10px;"/>
+                </g>
+            </g>
+            <g transform="matrix(1,0,0,1,0,66.3331)">
+                <path d="M1504.74,1221.3L1618.78,1221.3C1627.94,1221.3 1635.37,1213.87 1635.37,1204.71L1635.37,1171.55C1635.37,1162.39 1627.94,1154.96 1618.78,1154.96L1504.74,1154.96C1486.44,1154.96 1471.58,1169.83 1471.58,1188.13C1471.58,1206.44 1486.44,1221.3 1504.74,1221.3Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-27.3713,66.3331)">
+                <path d="M1537.3,1154.96C1558.72,1182.47 1555.42,1203.84 1536.42,1221.3" style="fill:none;stroke:black;stroke-width:10px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-27.3713,0)">
+                <path d="M1537.3,1154.96C1558.72,1182.47 1555.42,1203.84 1536.42,1221.3" style="fill:none;stroke:black;stroke-width:10px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,0,66.3331)">
+                <path d="M1504.74,1221.3L1618.78,1221.3C1627.94,1221.3 1635.37,1213.87 1635.37,1204.71L1635.37,1171.55C1635.37,1162.39 1627.94,1154.96 1618.78,1154.96L1504.74,1154.96C1486.44,1154.96 1471.58,1169.83 1471.58,1188.13C1471.58,1206.44 1486.44,1221.3 1504.74,1221.3Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-27.3713,66.3331)">
+                <path d="M1537.3,1154.96C1558.72,1182.47 1555.42,1203.84 1536.42,1221.3" style="fill:none;stroke:black;stroke-width:10px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Mouths">
+    </g>
+</svg>

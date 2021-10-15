@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Mouths">
+        <path id="Hitler" d="M995.589,619.766L1003.8,609.323L1009.45,619.766L1018.44,619.766L1024.15,609.323L1032.64,619.766L1041.74,619.766L1045.48,609.323L1055.01,619.766L1070.63,619.766L1051.26,581.815L999.42,581.815L977.17,619.766L995.589,619.766Z" style="stroke:black;stroke-width:10px;"/>
+    </g>
+</svg>

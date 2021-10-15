@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BackPacks">
+    </g>
+    <g id="BackPackAccessories">
+        <g id="Sword">
+            <g transform="matrix(1,0,0,0.718037,1.77271,152.651)">
+                <rect x="1411.22" y="313.654" width="84.241" height="227.734" style="fill:white;stroke:black;stroke-width:11.49px;"/>
+            </g>
+            <g transform="matrix(0.722986,0,0,0.722986,404.369,151.099)">
+                <path d="M1453.34,313.654L1453.34,471.149" style="fill:none;stroke:black;stroke-width:13.83px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,7.7219,64.2124)">
+                <rect x="1341.24" y="250.584" width="212.298" height="63.07" style="fill:white;stroke:black;stroke-width:10px;"/>
+            </g>
+            <g transform="matrix(0.536208,0,0,0.857181,675.822,100.001)">
+                <rect x="1411.22" y="148.986" width="84.241" height="101.599" style="fill:white;stroke:black;stroke-width:13.99px;"/>
+            </g>
+            <g transform="matrix(0.905767,0,0,0.625511,138.726,70.9652)">
+                <rect x="1411.22" y="148.986" width="84.241" height="101.599" style="fill:white;stroke:black;stroke-width:12.85px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Mouths">
+    </g>
+</svg>

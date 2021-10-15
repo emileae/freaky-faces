@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+        <g id="Round">
+            <g transform="matrix(1,0,0,1,0,81.9169)">
+                <path d="M550.323,1051.78C837.203,870.623 979.313,781.852 722.603,637.247L670.15,682.177C871.229,771.922 761.875,823.051 547.109,995.135L550.323,1051.78Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+            </g>
+            <g transform="matrix(-1,0,0,1,2046.66,81.9169)">
+                <path d="M670.15,682.177C871.229,771.922 761.875,823.051 547.109,995.135L550.323,1051.78C837.203,870.623 979.313,781.852 722.603,637.247L670.15,682.177Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

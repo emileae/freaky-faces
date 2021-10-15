@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Mouths">
+        <path id="Moustache" d="M1023.9,592.479C1018.34,584.412 986.682,597.295 980.841,612.359C977.928,619.873 928.833,588.512 932.228,595.286C933.574,597.972 969.392,625.06 980.841,626.23C988.784,627.042 1026.18,595.796 1023.9,592.479ZM1024.1,592.479C1029.66,584.412 1061.32,597.295 1067.16,612.359C1070.07,619.873 1119.17,588.512 1115.77,595.286C1114.43,597.972 1078.61,625.06 1067.16,626.23C1059.22,627.042 1021.82,595.796 1024.1,592.479Z" style="stroke:black;stroke-width:10px;"/>
+    </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+        <path id="FlatTop" d="M1127.26,466.305C1134.57,493.14 1134.39,526.468 1134.39,562.56C1134.39,651.237 1112.68,723.232 1024,723.232C935.323,723.232 913.607,651.237 913.607,562.56C913.607,526.468 913.435,493.14 920.745,466.305L1127.26,466.305Z" style="fill:white;stroke:black;stroke-width:10px;"/>
+    </g>
+</svg>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g transform="matrix(1,0,0,1,-5.51618,2.61599)">
+        <g id="Mouths">
+            <g id="Animal">
+                <g transform="matrix(1,0,0,0.943568,-0.613808,11.0108)">
+                    <path d="M1030.17,627.069C1030.17,627.069 995.09,589.431 1002,584.469C1006.96,580.91 1053.9,580.814 1058.33,584.469C1064.9,589.881 1030.17,627.069 1030.17,627.069Z" style="stroke:black;stroke-width:5.14px;"/>
+                </g>
+                <path d="M1029.55,642.47L1029.55,602.693" style="fill:none;stroke:black;stroke-width:10px;"/>
+                <path d="M1010.66,647.022L1048.54,647.022" style="fill:none;stroke:black;stroke-width:10px;"/>
+            </g>
+        </g>
+    </g>
+</svg>

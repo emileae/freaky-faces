@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 2048 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="BodiesLarge">
+    </g>
+    <g id="Straps">
+    </g>
+    <g id="Legs">
+    </g>
+    <g id="Shorts">
+    </g>
+    <g id="Faces">
+    </g>
+    <g id="Arms">
+        <g id="Round">
+            <g>
+                <path d="M607.088,845.446L593.698,836.43C368.21,836.43 286.115,1251.3 624.398,1050.63" style="fill:none;stroke:black;stroke-width:60px;"/>
+                <path d="M605.864,843.763L593.698,836.43C368.21,836.43 286.115,1251.3 624.398,1050.63" style="fill:none;stroke:white;stroke-width:40px;"/>
+                <g transform="matrix(1,0,0,1,-155.122,-126.231)">
+                    <ellipse cx="779.52" cy="1184.28" rx="45.53" ry="37.013" style="fill:white;stroke:black;stroke-width:10px;stroke-linecap:round;"/>
+                </g>
+            </g>
+            <g transform="matrix(-1,0,0,1,2045.66,0)">
+                <path d="M607.088,845.446L593.698,836.43C368.21,836.43 286.115,1251.3 624.398,1050.63" style="fill:none;stroke:black;stroke-width:60px;"/>
+                <path d="M605.864,843.763L593.698,836.43C368.21,836.43 286.115,1251.3 624.398,1050.63" style="fill:none;stroke:white;stroke-width:40px;"/>
+                <g transform="matrix(1,0,0,1,-155.122,-126.231)">
+                    <ellipse cx="779.52" cy="1184.28" rx="45.53" ry="37.013" style="fill:white;stroke:black;stroke-width:10px;stroke-linecap:round;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
