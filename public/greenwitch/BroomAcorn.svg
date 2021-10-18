@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g id="Ribbon">
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="CloakIcons">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Broombase">
+        <g id="Acorn">
+            <g transform="matrix(1.38779,-0.340813,0.340813,1.38779,-262.386,-274.918)">
+                <path d="M266.473,783.951C266.473,754.338 242.431,730.295 212.818,730.295L161.296,730.295C133.331,730.295 110.334,751.736 107.861,779.061C107.715,780.672 90.317,782.149 90.317,783.797C90.317,785.712 107.741,787.757 107.937,789.62C110.773,816.573 133.597,837.607 161.296,837.607L212.818,837.607C242.431,837.607 266.473,813.564 266.473,783.951Z" style="fill:rgb(152,115,38);stroke:rgb(62,44,22);stroke-width:4.2px;"/>
+            </g>
+            <path d="M246.927,776.382L186.972,791.204" style="fill:none;stroke:rgb(62,44,22);stroke-width:5px;"/>
+            <path d="M203.639,744.532L173.116,749.291" style="fill:none;stroke:rgb(62,44,22);stroke-width:5px;"/>
+            <g transform="matrix(0.350391,1.24148,-0.971685,0.274244,908.711,133.309)">
+                <path d="M392.611,698.445C392.611,676.49 378.66,658.665 361.475,658.665C335.479,664.61 309.841,664.729 284.588,658.665C267.403,658.665 253.452,676.49 253.452,698.445L253.452,727.571C253.452,749.526 268.786,761.532 284.588,767.351C302.591,773.981 343.472,773.981 361.475,767.351C377.277,761.532 392.611,749.526 392.611,727.571L392.611,698.445Z" style="fill:rgb(95,75,32);stroke:rgb(62,44,22);stroke-width:5.18px;"/>
+            </g>
+            <path d="M275.144,677.606L359.758,694.36L290.488,763.705L385.736,776.382" style="fill:none;stroke:rgb(62,44,22);stroke-width:5px;"/>
+            <path d="M329.838,659.423L282.642,717.473L357.026,742.046L330.44,806.478" style="fill:none;stroke:rgb(62,44,22);stroke-width:5px;"/>
+            <path d="M262.804,714.275L186.972,732.95" style="fill:none;stroke:rgb(62,44,22);stroke-width:5px;"/>
+        </g>
+    </g>
+</svg>

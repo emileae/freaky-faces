@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g id="Ribbon">
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="CloakIcons">
+    </g>
+    <g id="Eyes">
+        <g id="SleepyClosed">
+            <g transform="matrix(0.887666,-0.106339,0.106339,0.887666,12.2028,99.3454)">
+                <path d="M527.501,447.856C548.45,462.488 568.679,462.089 588.023,443.225" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(0.887666,-0.106339,0.106339,0.887666,11.1995,107.988)">
+                <path d="M532.096,441.234C530.201,445.831 527.23,449.339 522.519,451.082" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(0.887666,-0.106339,0.106339,0.887666,11.1995,107.988)">
+                <path d="M544.223,446.158C544.103,451.439 542.942,455.866 540.204,458.996" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(0.887666,-0.106339,0.106339,0.887666,11.1995,107.988)">
+                <path d="M560.026,448.708L560.026,463.6" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(0.887666,-0.106339,0.106339,0.887666,11.1995,107.988)">
+                <path d="M577.384,446.158C578.734,451.783 580.665,456.121 583.254,458.996" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(-0.799023,0.401025,0.401025,0.799023,902.487,-163.238)">
+                <path d="M527.501,447.856C548.45,462.488 568.679,462.089 588.023,443.225" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(-0.799023,0.401025,0.401025,0.799023,908.092,-156.584)">
+                <path d="M532.096,441.234C530.201,445.831 527.23,449.339 522.519,451.082" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(-0.799023,0.401025,0.401025,0.799023,908.092,-156.584)">
+                <path d="M544.223,446.158C544.103,451.439 542.942,455.866 540.204,458.996" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(-0.799023,0.401025,0.401025,0.799023,908.092,-156.584)">
+                <path d="M560.026,448.708L560.026,463.6" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+            <g transform="matrix(-0.799023,0.401025,0.401025,0.799023,908.092,-156.584)">
+                <path d="M577.384,446.158C578.734,451.783 580.665,456.121 583.254,458.996" style="fill:none;stroke:rgb(11,10,0);stroke-width:5.59px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="Broombase">
+    </g>
+</svg>

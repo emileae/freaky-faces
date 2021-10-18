@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g id="Ribbon">
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+        <g id="WartSnot">
+            <path d="M590.572,454.4C590.572,454.4 634.693,454.821 646.749,466.531C650.219,469.902 613.769,478.426 605.402,479.35C597.41,480.234 604.154,471.147 596.398,470.497C592.783,470.194 583.809,476.602 583.809,476.602" style="fill:none;stroke:black;stroke-width:5px;"/>
+            <g transform="matrix(0.859814,0.510608,-0.510608,0.859814,346.321,-256.099)">
+                <path d="M616.172,464.648C616.865,460.008 623.676,458.671 623.978,464.05" style="fill:none;stroke:black;stroke-width:5px;"/>
+            </g>
+            <g transform="matrix(1,0,0,1,-9.57131,4.86118)">
+                <path d="M600.933,469.849C600.579,483.866 595.881,537.436 592.556,551.219C591.718,554.694 585.391,570.916 595.587,570.138C610.528,568.997 602.965,555.424 602.853,551.219C602.632,542.978 603.623,497.984 608.566,471.638C609.102,468.784 601.006,466.946 600.933,469.849Z" style="fill:none;"/>
+                <clipPath id="_clip1">
+                    <path d="M600.933,469.849C600.579,483.866 595.881,537.436 592.556,551.219C591.718,554.694 585.391,570.916 595.587,570.138C610.528,568.997 602.965,555.424 602.853,551.219C602.632,542.978 603.623,497.984 608.566,471.638C609.102,468.784 601.006,466.946 600.933,469.849Z"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <g transform="matrix(1,0,0,0.834744,-146.521,92.3603)">
+                        <g transform="matrix(1,0,0,1,11.9727,-18.2407)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(203,73,73);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,11.9727,4.12836)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(203,123,73);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,11.9727,26.4974)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(203,198,73);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,11.9727,48.8665)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(109,203,73);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,11.9727,71.2356)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(73,119,203);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,11.9727,93.6046)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(112,73,203);"/>
+                        </g>
+                        <g transform="matrix(1,0,0,1,11.9727,115.974)">
+                            <rect x="724.397" y="464.34" width="22.993" height="22.369" style="fill:rgb(203,73,200);"/>
+                        </g>
+                    </g>
+                </g>
+                <path d="M600.933,469.849C600.579,483.866 595.881,537.436 592.556,551.219C591.718,554.694 585.391,570.916 595.587,570.138C610.528,568.997 602.965,555.424 602.853,551.219C602.632,542.978 603.623,497.984 608.566,471.638C609.102,468.784 601.006,466.946 600.933,469.849Z" style="fill:none;stroke:black;stroke-width:2.5px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="CloakIcons">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Broombase">
+    </g>
+</svg>

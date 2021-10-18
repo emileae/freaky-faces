@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g id="Ribbon">
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="CloakIcons">
+        <g id="Earth">
+            <g transform="matrix(0.877781,0,0,-1,79.7733,1198.8)">
+                <path d="M562.949,549.365L633.489,647.629L492.408,647.629L562.949,549.365Z" style="fill:none;stroke:white;stroke-width:5.31px;"/>
+            </g>
+            <g transform="matrix(0.803017,0,0,1,113.073,0)">
+                <path d="M496.786,599.758L651.002,599.758" style="fill:none;stroke:white;stroke-width:5.51px;"/>
+            </g>
+        </g>
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Broombase">
+    </g>
+</svg>

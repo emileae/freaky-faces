@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g id="Ribbon">
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="CloakIcons">
+        <path id="Moon" d="M596.124,623.495C590.176,629.25 582.078,632.793 573.159,632.793C554.926,632.793 540.124,617.99 540.124,599.758C540.124,581.525 554.926,566.723 573.159,566.723C582.078,566.723 590.176,570.266 596.124,576.021C593.791,575.295 591.312,574.905 588.743,574.905C575.026,574.905 563.89,586.041 563.89,599.758C563.89,613.475 575.026,624.611 588.743,624.611C591.312,624.611 593.791,624.22 596.124,623.495Z" style="fill:none;stroke:white;stroke-width:5px;"/>
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Broombase">
+    </g>
+</svg>

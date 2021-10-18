@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>FreakyFaces</title>
+
+    <style>
+        @font-face {
+            font-family: kaomoji;
+            src: url(Kaomoji-Regular.ttf);
+        }
+        html body{
+            background-color: rgb(166, 226, 201);
+            font-family: kaomoji;
+        }
+        .layered-img{
+            position:absolute;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="greenwitch">
+        
+    </div>
+
+    <script>
+
+        const images = {
+            "Broom": ["Acorn", "Clover3", "Clover4", "Normal"],
+            "Cloak": ["Black", "Green", "Pink", "Blue"],
+            "Eyes": ["Normal", "Angry", "Closed", "HappyClosed", "Heart", "High", "Specs"],
+            "Hair": ["Normal", "Ginger", "Blonde", "Brunette", "Braid"],
+            "Hat": ["Black", "Blue", "Green", "Pink"],
+            "Icon": ["Air", "Earth", "Fire", "Jupiter", "Mars", "Mercury", "Moon", "Neptune", "pentagram", "Pluto", "Sun", "ThirdEye", "Uranus", "Venus", "Water"],
+            "Nose": ["Button", "Flower", "Normal", "Pig", "Pointy", "Round", "Wart", "WartSnot"],
+            "Ribbon": ["Blue", "Pink", "Red", "Yellow"]
+        }
+
+    function getRandomInt(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+      }
+
+      var uniques = [];
+
+      function randomAsset(assetName){
+        var index = getRandomInt(0, images[assetName].length-1);
+        return images[assetName][index];
+      }
+
+      function genCharacter(){
+        var character = {};
+        character["Cloak"] = randomAsset("Cloak");
+        character["Hair"] = randomAsset("Hair");
+        character["Nose"] = randomAsset("Nose");
+        character["Eyes"] = randomAsset("Eyes");
+        character["Ribbon"] = randomAsset("Ribbon");
+        character["Hat"] = randomAsset("Hat");
+        character["Broom"] = randomAsset("Broom");
+        character["Icon"] = randomAsset("Icon");
+        var id = `${character["Cloak"]},${character["Hair"]},${character["Nose"]},${character["Eyes"]},${character["Icon"]},${character["Broom"]},${character["Hat"]},${character["ribbon"]}`
+        if (uniques.indexOf(id) <= -1){
+            uniques.push(id)
+        }
+        return character;
+      }
+
+      function generateImage(){
+        var zPos = {
+            "Hair": 0,
+            "Cloak": 0,
+            "Icon": 0,
+            "Broom": 2,
+            "Straps": 1,
+            "Eyes": 2,
+            "Nose": 3,
+            "Ribbon": 3,
+        } 
+        var character = genCharacter();
+        console.log("character: ", character)
+        var html = "";
+        html += `<img class="layered-img" src="greenwitch/Broomstick.svg" width="512px" style="z-index:0"/>`
+        Object.keys(character).forEach(function(attr, idx){
+            html += `<img class="layered-img" src="greenwitch/${attr}${character[attr]}.svg" width="512px" style="z-index:${zPos[attr]}"/>`
+        })
+        var pahc = document.getElementById("greenwitch")
+        pahc.innerHTML = html;
+      }
+
+      setInterval(function(){
+        generateImage();
+      }, 1000)
+    //   generateImage();
+    //   generate10K()
+
+    // function generate10K(){
+    //     for (var i=0; i<10001; i++){
+    //         genCharacter();
+    //     }
+    //     console.log("total uniques: ", uniques.length);
+    // }
+    </script>
+</body>
+</html>
