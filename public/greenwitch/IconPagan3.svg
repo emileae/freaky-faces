@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g id="Ribbon">
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+    </g>
+    <g transform="matrix(6.12323e-17,1,-1,6.12323e-17,1186.17,58.5504)">
+        <g id="CloakIcons">
+            <g id="Pagan3">
+                <g>
+                    <g transform="matrix(0.678883,0,0,0.678883,184.315,178.025)">
+                        <circle cx="570.885" cy="628.875" r="63.507" style="fill:none;stroke:white;stroke-width:7.37px;"/>
+                    </g>
+                    <g transform="matrix(0.678883,0,0,0.678883,181.177,192.148)">
+                        <path d="M436.963,545.611C440.704,544.924 444.557,544.565 448.493,544.565C483.544,544.565 512,573.021 512,608.072C512,643.122 483.544,671.579 448.493,671.579C444.557,671.579 440.704,671.22 436.963,670.532C466.515,665.104 488.939,639.186 488.939,608.072C488.939,576.957 466.515,551.039 436.963,545.611Z" style="fill:none;stroke:white;stroke-width:7.37px;"/>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Broombase">
+    </g>
+</svg>

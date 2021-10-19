@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Cloaks">
+    </g>
+    <g id="Hats">
+    </g>
+    <g transform="matrix(-1,0,0,1,893.39,22.7707)">
+        <g id="Ribbon">
+            <g id="Wolfsbane">
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M264.165,583.471C284.18,497.755 280.477,380.149 374.232,340.971C337.961,320.793 291.235,245.271 374.232,193.462C493.837,217.26 410.165,342.743 458.958,430.12C505.388,523.788 412.735,562.158 307.054,603.585L264.165,583.471Z" style="fill:rgb(124,76,185);stroke:black;stroke-width:16.22px;"/>
+                </g>
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M307.054,603.585C403.289,711.356 466.128,668.839 545.238,498.927C505.2,477.826 476.29,467.097 465.734,494.816C444.48,535.221 388.237,578.027 307.054,603.585Z" style="fill:rgb(81,26,152);stroke:black;stroke-width:16.22px;"/>
+                </g>
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M307.054,593.05C416.656,527.852 411.178,416.974 444.887,375.866" style="fill:none;stroke:black;stroke-width:16.22px;"/>
+                </g>
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M283.791,593.05C472.368,383.89 372.208,321.223 375.971,201.947" style="fill:none;stroke:rgb(184,128,218);stroke-width:16.22px;"/>
+                </g>
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M326.076,615.42C420.551,646.173 471.785,613.943 503.97,502.087" style="fill:none;stroke:rgb(184,128,218);stroke-width:16.22px;"/>
+                </g>
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M283.791,612.478C230.096,747.376 154.616,756.77 41.756,603.585" style="fill:none;stroke:black;stroke-width:64.88px;"/>
+                </g>
+                <g transform="matrix(0.215796,0,0,0.215796,344.543,195.663)">
+                    <path d="M283.791,612.478C230.096,747.376 154.616,756.77 41.756,603.585" style="fill:none;stroke:rgb(89,154,57);stroke-width:27.8px;"/>
+                </g>
+            </g>
+        </g>
+    </g>
+    <g id="Hair">
+    </g>
+    <g id="Nose">
+    </g>
+    <g id="CloakIcons">
+    </g>
+    <g id="Eyes">
+    </g>
+    <g id="Broombase">
+    </g>
+</svg>
